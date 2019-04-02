@@ -25207,15 +25207,27 @@ __webpack_require__(/*! ./core/mobile-nav */ "./resources/js/core/mobile-nav.js"
 
 /***/ }),
 
+/***/ "./resources/sass/web.scss":
+/*!*********************************!*\
+  !*** ./resources/sass/web.scss ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!******************************************************************************************!*\
-  !*** multi ./resources/js/core.js ./resources/sass/core.scss ./resources/sass/main.scss ***!
-  \******************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** multi ./resources/js/core.js ./resources/sass/core.scss ./resources/sass/web.scss ./resources/sass/main.scss ***!
+  \********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/bhaktij/Documents/Web/aistatics/resources/js/core.js */"./resources/js/core.js");
 __webpack_require__(/*! /Users/bhaktij/Documents/Web/aistatics/resources/sass/core.scss */"./resources/sass/core.scss");
+__webpack_require__(/*! /Users/bhaktij/Documents/Web/aistatics/resources/sass/web.scss */"./resources/sass/web.scss");
 module.exports = __webpack_require__(/*! /Users/bhaktij/Documents/Web/aistatics/resources/sass/main.scss */"./resources/sass/main.scss");
 
 

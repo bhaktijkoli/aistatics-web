@@ -130,7 +130,7 @@ h6 {
 }
 
 #topbar .social-links a {
-  color: #535074;
+  color: #dadada;
   padding: 4px 12px;
   display: inline-block;
   line-height: 1px;
@@ -271,13 +271,17 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  color: #dadada;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.header-scrolled .main-nav a {
+  color: #413e66;
 }
 
 .main-nav a:hover,

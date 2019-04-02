@@ -123,8 +123,10 @@
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+      $('#header-logo').attr('src', '/img/logo.png');
     } else {
       $('#header').removeClass('header-scrolled');
+      $('#header-logo').attr('src', '/img/logo_white.png');
     }
   });
 

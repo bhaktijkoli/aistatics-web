@@ -14,7 +14,7 @@
     <div class="container">
 
       <div class="logo float-left">
-        <a href="/"><img src="img/logo.png" alt="AI STATICS Logo" class="img-fluid"></a>
+        <a href="/"><img id="header-logo" src="img/logo_white.png" alt="AI STATICS Logo" class="img-fluid"></a>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
@@ -27,7 +27,7 @@
           <li><a href="">Gallery</a></li>
           <li><a href="">Contact Us</a></li>
         </ul>
-      </nav><!-- .main-nav -->
+      </nav>
 
     </div>
   </header>
