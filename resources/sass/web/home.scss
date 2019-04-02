@@ -1,3 +1,29 @@
 #welcome {
   background-image: url("/img/slide1.jpg");
+  h1 {
+    color: #ececec;
+    font-size: 3.2em;
+  }
+  .item .icon {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: #1bb1dc;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .item .text {
+    display: inline-block;
+    color: #ececec;
+    vertical-align: sub;
+    margin-left: 10px;
+    font-size: 1.2em;
+  }
+  .item img {
+    margin-top: 10px;
+  }
+}
+#call-to-action {
+  min-height: 0px !important;
 }
