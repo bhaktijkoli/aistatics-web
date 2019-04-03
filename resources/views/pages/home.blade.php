@@ -73,34 +73,41 @@
           </div>
         </div>
       </section>
-      <section id="training" class="wow fadeInUp section-bg">
+      <section id="training" class="section-bg">
         @php
         $tranings = array(
           array(
             'title' => 'Machine learning',
-            'desc' => 'Machine learning is a form of artificial intelligence that automates data analysis to enable computers to learn and adapt from experience. With machine learning, computers can perform specific tasks without precise programming.'
+            'desc' => 'Machine learning is a form of artificial intelligence that automates data analysis to enable computers to learn and adapt from experience. With machine learning, computers can perform specific tasks without precise programming.',
+            'img' => 'machine_learning',
           ),
           array(
             'title' => 'Deep learning',
-            'desc' => 'The field of artificial intelligence is essentially when machines can do tasks that typically require human intelligence. It encompasses machine learning, where machines can learn by experience and acquire skills without human involvement.'
+            'desc' => 'The field of artificial intelligence is essentially when machines can do tasks that typically require human intelligence. It encompasses machine learning, where machines can learn by experience and acquire skills without human involvement.',
+            'img' => 'deep_learning',
           ),
           array(
             'title' => 'Natural Language Processing',
-            'desc' => 'Natural language processing (NLP) is a branch of AI that helps computers understand, interpret and manipulate human language. NLP draws from many disciplines, including computer science and computational linguistics in its pursuit to fill the gap.'
+            'desc' => 'Natural language processing (NLP) is a branch of AI that helps computers understand, interpret and manipulate human language. NLP draws from many disciplines, including computer science and computational linguistics in its pursuit to fill the gap.',
+            'img' => 'machine_learning',
           ),
           array(
             'title' => 'SAS',
-            'desc' => 'SAS (Statistical Analysis Systems) is a product suite created by SAS Institute that performs multivariate investigations, advanced analytics, data management, business intelligence, and various different duties. It’s utilized for quite a while by several significant organization.'
+            'desc' => 'SAS (Statistical Analysis Systems) is a product suite created by SAS Institute that performs multivariate investigations, advanced analytics, data management, business intelligence, and various different duties. It’s utilized for quite a while by several significant organization.',
+            'img' => 'machine_learning',
           ),
           array(
             'title' => 'Data Science',
-            'desc' => 'Data Science is the study which deals with identification, extraction, and representation of meaningful information from raw data set to be used for business determinations. Data science, also known as data-driven science, is an interdisciplinary field about scientific methods.'
+            'desc' => 'Data Science is the study which deals with identification, extraction, and representation of meaningful information from raw data set to be used for business determinations. Data science, also known as data-driven science, is an interdisciplinary field about scientific methods.',
+            'img' => 'data_science',
           ),
           array(
             'title' => 'Tableau',
-            'desc' => 'Tableau is a data visualization software that is used for data science and business intelligence. Tableau can create a wide range of different visualization to interactively present the data and showcase insights. It comes with tools that allow to drill down data and see the impact in a visual format.'
+            'desc' => 'Tableau is a data visualization software that is used for data science and business intelligence. Tableau can create a wide range of different visualization to interactively present the data and showcase insights. It comes with tools that allow to drill down data and see the impact in a visual format.',
+            'img' => 'tableau',
           ),
-        )
+        );
+        $delay = 3;
         @endphp
         <div class="container">
           <header class="section-header">
@@ -110,8 +117,11 @@
           <div class="row flex-items-xs-middle flex-items-xs-center">
             @foreach ($tranings as $traning)
               <div class="col-xs-12 col-lg-4">
-                <div class="card">
+                <div class="card wow fadeInUp" data-wow-delay="{{$delay++*100}}ms">
                   <div class="card-block">
+                    <div class="card-image">
+                      <img src="/img/{{$traning['img']}}.jpg"/>
+                    </div>
                     <h4 class="card-title">
                       {{$traning['title']}}
                     </h4>

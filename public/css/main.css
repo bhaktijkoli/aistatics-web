@@ -1044,7 +1044,7 @@ h6 {
   border-radius: 0px;
   box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
   transition: all 0.3s ease-in-out;
-  padding: 36px 0;
+  padding: 0px 0px 36px 0px;
   position: relative;
   margin-bottom: 50px;
 }
@@ -1074,6 +1074,22 @@ h6 {
   background-color: white;
   border-bottom: 0px;
   text-align-last: center;
+}
+
+#training .card .card-image {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+#training .card .card-image img {
+  width: 100%;
+  height: 180px;
+  transition: all 300ms;
+}
+
+#training .card:hover .card-image img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 #training .card .card-title {
