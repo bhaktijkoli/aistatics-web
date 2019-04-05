@@ -1,4 +1,5 @@
 section {
+  position: relative;
   width: 100vw;
   min-height: 100vh;
 }
@@ -25,11 +26,13 @@ section {
     color: #dadada;
     font-size: 1.5em;
   }
-  .backdrop {
-    position: absolute;
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    background: #00000078;
-  }
+}
+
+
+.backdrop {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: #00000078;
 }

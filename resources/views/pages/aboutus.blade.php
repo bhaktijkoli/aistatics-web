@@ -21,7 +21,6 @@
   <main id="main">
     <section id="profile">
       <div class="container">
-        <div class="space"></div>
         <div class="row">
           <div class="col-sm-4">
             <img class="img-fluid" src="/img/profile.png" alt="">
@@ -63,6 +62,38 @@
               have a skilled team of professionals and domain experts who deliver strategically
               designed and efficient solutions to meet your business goals.
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="goals" data-parallax="scroll" data-image-src="/img/slide1.jpg">
+      <div class="backdrop"> </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-center">
+              <h4>Our Goals</h4>
+              <p>Develop a strong base of key company and Students based on data science.</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="text-center">
+              <h4>Our Vision</h4>
+              <ul>
+                <li>To be a global leader in all the technology and management aspects of training, consulting and development.</li>
+                <li>To make effective learning accessible to all the major industries across the globe.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="text-center">
+              <h4>Our Mission</h4>
+              <ul>
+                <li>To bridge the gap between industry’s requirement & student’s skill set</li>
+                <li>To rewrite the programs’ course content, such a way that it matches the skilled personnel requirement of the companies</li>
+                <li>To create a ready and skilled human resource for furthering industry’s interests</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

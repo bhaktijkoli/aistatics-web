@@ -3,4 +3,25 @@
     font-weight: 600;
     font-size: 24px;
   }
+  .container {
+    padding: 50px 0px;
+  }
+}
+#goals {
+  min-height: 0px;
+  .container {
+    padding: 50px 0px;
+  }
+  h4 {
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  ul {
+    text-align: left;
+  }
+  p, li {
+    font-weight: 500;
+    color: #FFFFFF;
+  }
 }

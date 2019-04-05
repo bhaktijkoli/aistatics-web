@@ -1,4 +1,5 @@
 section {
+  position: relative;
   width: 100vw;
   min-height: 100vh;
 }
@@ -52,6 +53,34 @@ section {
   font-size: 24px;
 }
 
+#profile .container {
+  padding: 50px 0px;
+}
+
+#goals {
+  min-height: 0px;
+}
+
+#goals .container {
+  padding: 50px 0px;
+}
+
+#goals h4 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+#goals ul {
+  text-align: left;
+}
+
+#goals p,
+#goals li {
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
 #hero {
   position: relative;
   min-height: 0px;
@@ -70,7 +99,7 @@ section {
   font-size: 1.5em;
 }
 
-#hero .backdrop {
+.backdrop {
   position: absolute;
   top: 0px;
   height: 100%;
