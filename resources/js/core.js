@@ -11,3 +11,4 @@ try {
 }
 
 require('./core/mobile-nav')
+require('./core/parallax')

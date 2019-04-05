@@ -47,3 +47,34 @@ section {
   min-height: 0px !important;
 }
 
+#profile h4 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#hero {
+  position: relative;
+  min-height: 0px;
+}
+
+#hero .container {
+  padding: 150px 0px 120px 0px;
+}
+
+#hero .title {
+  color: #FFFFFF;
+}
+
+#hero .sub-title {
+  color: #dadada;
+  font-size: 1.5em;
+}
+
+#hero .backdrop {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: #00000078;
+}
+

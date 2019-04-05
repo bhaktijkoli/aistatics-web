@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'HomeController@getHome');
+Route::get('/about-us', 'HomeController@getAboutUs')->name('about-us');

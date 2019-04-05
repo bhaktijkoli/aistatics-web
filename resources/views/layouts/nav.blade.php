@@ -20,7 +20,7 @@
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
           <li class="active"><a href="">Home</a></li>
-          <li><a href="">About Us</a></li>
+          <li><a href="{{route('about-us')}}">About Us</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Training</a></li>
           <li><a href="">Students</a></li>
