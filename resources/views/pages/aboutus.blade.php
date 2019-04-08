@@ -98,5 +98,20 @@
         </div>
       </div>
     </section>
+    <section id="who_we_are">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <h4>Who We Are?</h4>
+            <p>
+              AIS offers a comprehensive range of professional Financial Services and Analytics programs that are designed to cater to an aspiring group of professionals who want a tailored program on making them career ready. Our programs are driven by a constant need to be job relevant and stimulating, taking into consideration the dynamic nature of the Financial Services and Analytics market, and are taught by world class professionals with specific domain expertise.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <img class="img-fluid" src="/img/who_we_are.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 @endsection

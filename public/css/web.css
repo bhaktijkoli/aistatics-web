@@ -81,6 +81,15 @@ section {
   color: #FFFFFF;
 }
 
+#who_we_are h4 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#who_we_are .container {
+  padding: 50px 0px;
+}
+
 #hero {
   position: relative;
   min-height: 0px;
