@@ -21,7 +21,7 @@
         <ul>
           <li class="active"><a href="">Home</a></li>
           <li><a href="{{route('about-us')}}">About Us</a></li>
-          <li><a href="">Services</a></li>
+          <li><a href="{{route('services')}}">Services</a></li>
           <li><a href="">Training</a></li>
           <li><a href="">Students</a></li>
           <li><a href="">Gallery</a></li>
