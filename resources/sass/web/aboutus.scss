@@ -26,11 +26,41 @@
   }
 }
 #who_we_are {
+  min-height: 0px;
   h4 {
     font-weight: 600;
     font-size: 24px;
   }
   .container {
     padding: 50px 0px;
+  }
+}
+#why_us {
+  h4 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .container {
+    padding: 50px 0px;
+  }
+  .service {
+    margin: 40px 0px;
+    text-align: center;
+    padding: 0px 30px;
+  }
+  .service h4 {
+    margin: 10px 0px;
+    font-size: 18px;
+  }
+  .service .icon {
+    margin: 0 auto;
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background: #1bb1dc
+  }
+  .service img {
+    position: relative;
+    top: 18%;
   }
 }

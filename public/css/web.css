@@ -81,6 +81,10 @@ section {
   color: #FFFFFF;
 }
 
+#who_we_are {
+  min-height: 0px;
+}
+
 #who_we_are h4 {
   font-weight: 600;
   font-size: 24px;
@@ -88,6 +92,39 @@ section {
 
 #who_we_are .container {
   padding: 50px 0px;
+}
+
+#why_us h4 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#why_us .container {
+  padding: 50px 0px;
+}
+
+#why_us .service {
+  margin: 40px 0px;
+  text-align: center;
+  padding: 0px 30px;
+}
+
+#why_us .service h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+}
+
+#why_us .service .icon {
+  margin: 0 auto;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: #1bb1dc;
+}
+
+#why_us .service img {
+  position: relative;
+  top: 18%;
 }
 
 #hero {

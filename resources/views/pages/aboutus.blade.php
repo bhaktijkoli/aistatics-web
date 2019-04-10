@@ -113,5 +113,63 @@
         </div>
       </div>
     </section>
+    <section id="why_us">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-center">
+              <h4>Why us?</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="service wow fadeInUp" data-wow-delay="300ms">
+              <div class="icon">
+                <img src="/img/team.svg" width="52"/>
+              </div>
+              <h4>The Best Team</h4>
+              <p>As a family we ask for help and help when ask.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="service wow fadeInUp" data-wow-delay="400ms">
+              <div class="icon">
+                <img src="/img/quality.svg" width="52"/>
+              </div>
+              <h4>Quality</h4>
+              <p>We are proud to stand behind the quality of work we deliver.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="service wow fadeInUp" data-wow-delay="500ms">
+              <div class="icon">
+                <img src="/img/integrity.svg" width="52"/>
+              </div>
+              <h4>Integrity</h4>
+              <p>We always act with integrity through honesty, fairness and accountability.</p>
+            </div>
+          </div>
+          <div class="offset-2 col-sm-4">
+            <div class="service wow fadeInUp" data-wow-delay="600ms">
+              <div class="icon">
+                <img src="/img/simple.svg" width="52"/>
+              </div>
+              <h4>Keeping it simple</h4>
+              <p>Our team of straight forward, logical thinking people with a common-sense approach to business avoid complexities to get the job done.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="service wow fadeInUp" data-wow-delay="700ms">
+              <div class="icon">
+                <img src="/img/low_cost.svg" width="52"/>
+              </div>
+              <h4>Achieving Lowest Cost</h4>
+              <p>We never lose sight of good values, we are able to deliver the best solution for you through working with multiple suppliers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 @endsection
