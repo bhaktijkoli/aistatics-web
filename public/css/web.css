@@ -211,6 +211,35 @@ section {
   color: #535074;
 }
 
+#training_welcome {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#training_welcome .container {
+  z-index: 1020;
+  padding-top: 200PX;
+}
+
+#training_welcome .title {
+  color: #ececec;
+  font-size: 3.5em;
+  margin-bottom: 0px;
+}
+
+#training_welcome .subtitle {
+  color: #ececec;
+  font-size: 1em;
+}
+
+#training_welcome .counter-container {
+  margin-top: 30px;
+}
+
+#training_welcome .counter {
+  color: #ececec;
+}
+
 #hero {
   position: relative;
   min-height: 0px;

@@ -1,0 +1,23 @@
+#training_welcome {
+  background-size: cover;
+  background-repeat: no-repeat;
+  .container {
+    z-index: 1020;
+    padding-top: 200PX;
+  }
+  .title {
+    color: #ececec;
+    font-size: 3.5em;
+    margin-bottom: 0px;
+  }
+  .subtitle {
+    color: #ececec;
+    font-size: 1em;
+  }
+  .counter-container {
+    margin-top: 30px;
+  }
+  .counter {
+    color: #ececec;
+  }
+}

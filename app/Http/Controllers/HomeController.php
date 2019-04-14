@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Training;
+
 class HomeController extends Controller
 {
   public function getHome() {
@@ -14,5 +16,9 @@ class HomeController extends Controller
   }
   public function getServices() {
     return view('pages.services');
+  }
+  public function getTraining($slug) {
+    $training = Training::where('slug', $slug)->first();
+    return view('pages.training', compact('training'));
   }
 }

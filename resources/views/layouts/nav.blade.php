@@ -14,7 +14,7 @@
   <div class="container">
 
     <div class="logo float-left">
-      <a href="/"><img id="header-logo" src="img/logo_white.png" alt="AI STATICS Logo" class="img-fluid"></a>
+      <a href="/"><img id="header-logo" src="/img/logo_white.png" alt="AI STATICS Logo" class="img-fluid"></a>
     </div>
 
     <nav class="main-nav float-right d-none d-lg-block">
