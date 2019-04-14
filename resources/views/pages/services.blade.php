@@ -21,13 +21,10 @@
   <main id="main">
     <section id="services">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="text-center">
-              <h4>Our Services</h4>
-            </div>
-          </div>
-        </div>
+        <header class="section-header">
+          <h3>Our Services</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </header>
         <div class="row">
           @php
           $services = array(
