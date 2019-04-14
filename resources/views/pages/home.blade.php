@@ -115,18 +115,18 @@
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
           </header>
           <div class="row flex-items-xs-middle flex-items-xs-center">
-            @foreach ($tranings as $traning)
+            @foreach (App\Training::all() as $traning)
               <div class="col-xs-12 col-lg-4">
                 <div class="card wow fadeInUp" data-wow-delay="{{$delay++*100}}ms">
                   <div class="card-block">
                     <div class="card-image">
-                      <img src="/img/{{$traning['img']}}.jpg"/>
+                      <img src="{{Voyager::image($traning->image)}}"/>
                     </div>
                     <h4 class="card-title">
-                      {{$traning['title']}}
+                      {{$traning->name}}
                     </h4>
-                    <p>{{$traning['desc']}}</p>
-                    <a href="#" class="btn">Read more</a>
+                    <p>{{$traning->description}}</p>
+                    <a href="{{route('training', $traning->slug)}}" class="btn">Read more</a>
                   </div>
                 </div>
               </div>

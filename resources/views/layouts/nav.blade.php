@@ -24,12 +24,9 @@
         <li><a href="{{route('services')}}">Services</a></li>
         <li class="drop-down"><a href="">Trainings</a>
           <ul>
-            <li><a href="{{route('training', 'machine-learning')}}">Machine learning</a></li>
-            <li><a href="{{route('training', 'deep-learning')}}">Deep learning</a></li>
-            <li><a href="{{route('training', 'natural-Language-processing')}}">Natural Language Processing</a></li>
-            <li><a href="{{route('training', 'sas')}}">SAS</a></li>
-            <li><a href="{{route('training', 'data-science')}}">Data Science</a></li>
-            <li><a href="{{route('training', 'tableau')}}">Tableau</a></li>
+            @foreach (App\Training::all() as $traning)
+              <li><a href="{{route('training', $traning->slug)}}">{{$traning->name}}</a></li>
+            @endforeach
           </ul>
         </li>
         <li><a href="">Students</a></li>

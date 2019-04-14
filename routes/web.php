@@ -15,3 +15,8 @@ Route::get('/', 'HomeController@getHome');
 Route::get('/about-us', 'HomeController@getAboutUs')->name('about-us');
 Route::get('/services', 'HomeController@getServices')->name('services');
 Route::get('/training/{training}', 'HomeController@getHome')->name('training');
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});
