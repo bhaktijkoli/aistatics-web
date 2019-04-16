@@ -214,6 +214,9 @@ section {
 #training_welcome {
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  min-height: 0px !important;
+  height: 500px;
 }
 
 #training_welcome .container {
@@ -230,14 +233,29 @@ section {
 #training_welcome .subtitle {
   color: #ececec;
   font-size: 1em;
+  margin-bottom: 0px;
 }
 
 #training_welcome .counter-container {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #training_welcome .counter {
   color: #ececec;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#training_overview .container {
+  padding-top: 100px;
+}
+
+#training_overview h3 {
+  text-align: left !important;
+}
+
+#training_overview .output > p {
+  margin: 0px;
 }
 
 #hero {
