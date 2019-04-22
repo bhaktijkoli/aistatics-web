@@ -24,4 +24,7 @@ class HomeController extends Controller
   public function getGallery() {
     return view('pages.gallery');
   }
+  public function getContactUs() {
+    return view('pages.contactus');
+  }
 }

@@ -19,7 +19,7 @@
 
     <nav class="main-nav float-right d-none d-lg-block">
       <ul>
-        <li class="active"><a href="">Home</a></li>
+        <li class="active"><a href="{{route('home')}}">Home</a></li>
         <li><a href="{{route('about-us')}}">About Us</a></li>
         <li><a href="{{route('services')}}">Services</a></li>
         <li class="drop-down"><a href="">Trainings</a>
@@ -31,7 +31,7 @@
         </li>
         <li><a href="">Students</a></li>
         <li><a href="{{route('gallery')}}">Gallery</a></li>
-        <li><a href="">Contact Us</a></li>
+        <li><a href="{{route('contactus')}}">Contact Us</a></li>
       </ul>
     </nav>
 

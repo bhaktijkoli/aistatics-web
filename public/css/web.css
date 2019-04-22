@@ -286,6 +286,28 @@ section {
   vertical-align: super;
 }
 
+#contactus h4 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+#contactus .container {
+  padding: 50px 0px;
+}
+
+#contactus .contact-details {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#contactus .contact-details span {
+  margin-left: 5px;
+}
+
+#contactus .btn {
+  min-width: 180px;
+}
+
 #hero {
   position: relative;
   min-height: 0px;
