@@ -30,7 +30,7 @@
           </ul>
         </li>
         <li><a href="">Students</a></li>
-        <li><a href="">Gallery</a></li>
+        <li><a href="{{route('gallery')}}">Gallery</a></li>
         <li><a href="">Contact Us</a></li>
       </ul>
     </nav>
