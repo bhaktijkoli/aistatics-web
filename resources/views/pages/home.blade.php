@@ -93,7 +93,7 @@
                     <h4 class="card-title">
                       {{$traning->name}}
                     </h4>
-                    <p>{{$traning->description}}</p>
+                    <p style="display: -webkit-box; overflow : hidden; text-overflow: ellipsis; -webkit-line-clamp: 5; -webkit-box-orient: vertical;">{{$traning->description}}</p>
                     <a href="{{route('training', $traning->slug)}}" class="btn">Read more</a>
                   </div>
                 </div>

@@ -93,24 +93,20 @@ h6 {
 
 @-webkit-keyframes animate-preloader {
   0% {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 
 @keyframes animate-preloader {
   0% {
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
 
   100% {
-    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
@@ -546,7 +542,6 @@ h6 {
 
 #about .about-img img:hover {
   width: 100%;
-  -webkit-transform: scale(1.03);
   transform: scale(1.03);
 }
 
@@ -594,7 +589,6 @@ h6 {
 }
 
 #services .box:hover {
-  -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
@@ -1061,7 +1055,6 @@ h6 {
 }
 
 #training .card:hover {
-  -webkit-transform: scale(1.05);
   transform: scale(1.05);
   box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
 }
@@ -1073,6 +1066,7 @@ h6 {
 #training .card .card-header {
   background-color: white;
   border-bottom: 0px;
+  -moz-text-align-last: center;
   text-align-last: center;
 }
 
@@ -1088,8 +1082,7 @@ h6 {
 }
 
 #training .card:hover .card-image img {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #training .card .card-title {
@@ -1388,6 +1381,11 @@ h6 {
 
 #footer .footer-top .form input::-webkit-input-placeholder,
 #footer .footer-top .form textarea::-webkit-input-placeholder {
+  color: #a2a0bd;
+}
+
+#footer .footer-top .form input::-moz-placeholder,
+#footer .footer-top .form textarea::-moz-placeholder {
   color: #a2a0bd;
 }
 

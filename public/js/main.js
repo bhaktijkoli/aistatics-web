@@ -196,7 +196,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/bhaktij/Documents/Web/aistatics/resources/js/main.js */"./resources/js/main.js");
+module.exports = __webpack_require__(/*! /Users/bhaktijkoli/Documents/Web/aistatics-web/resources/js/main.js */"./resources/js/main.js");
 
 
 /***/ })

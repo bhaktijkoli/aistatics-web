@@ -159,7 +159,6 @@ section {
 }
 
 #services .card:hover {
-  -webkit-transform: scale(1.05);
   transform: scale(1.05);
   box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
 }
@@ -171,6 +170,7 @@ section {
 #services .card .card-header {
   background-color: white;
   border-bottom: 0px;
+  -moz-text-align-last: center;
   text-align-last: center;
 }
 
@@ -186,8 +186,7 @@ section {
 }
 
 #services .card:hover .card-image img {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 #services .card .card-title {
