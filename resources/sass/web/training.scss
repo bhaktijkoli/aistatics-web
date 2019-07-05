@@ -78,6 +78,10 @@
   color: #000;
 }
 
+#curriculum-list .item ol {
+  margin-bottom: 20px;
+}
+
 #curriculum-list a.collapsed i::before {
   content: "\f102" !important;
 }

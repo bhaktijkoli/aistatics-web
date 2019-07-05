@@ -121,8 +121,8 @@
                   @break;
                 @endif
                 <li class="item">
-                  <a data-toggle="collapse" class="collapsed" href="#curriculum{{$loop->iteration}}">{{strip_tags($sectionName)}}<i class="ion-md-remove"></i></a>
-                  <div id="curriculum{{$loop->iteration}}"  class="collapse" data-parent="#curriculum-list">
+                  <a data-toggle="collapse" class="{{$loop->first?'':'collapsed'}}" href="#curriculum{{$loop->iteration}}" aria-expanded="{{$loop->first?true:false}}">{{strip_tags($sectionName)}}<i class="ion-md-remove"></i></a>
+                  <div id="curriculum{{$loop->iteration}}"  class="collapse {{$loop->first?'show':''}}" data-parent="#curriculum-list">
                     <ol>
                       @foreach ($topics as $topic)
                         @if (strlen(strip_tags($topic)) < 5)
