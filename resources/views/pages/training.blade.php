@@ -107,7 +107,7 @@
             </header>
           </div>
           <div class="col-sm-12">
-            <ul id="curriculum-list" class="wow fadeInUp">
+            <ul id="curriculum-list">
               @php
               $sections = explode('</ul>', $training->curriculum);
               @endphp
@@ -136,6 +136,38 @@
               @endforeach
             </ul>
           </div>
+        </div>
+        <div class="space-100"></div>
+        <div class="col-sm-12">
+          <header class="section-header">
+            <h3>Course Features</h3>
+          </header>
+        </div>
+        <div class="col-sm-8">
+          <ul>
+            <li>Practical Hands on</li>
+            <li>Timely Doubt Resolution</li>
+            <li>Reference codes and study materials</li>
+            <li>Module wise case study and projects</li>
+            <li>Career guidance and career support</li>
+          </ul>
+        </div>
+        <div class="space-100"></div>
+        <div class="col-sm-12">
+          <header class="section-header">
+            <h3>Career services</h3>
+          </header>
+          <p>Our career services work closely with you throughout the program. We help you identify your strengths and weaknesses, determine career interests, and spot employment opportunities. We empower our students to become self-sufficient in navigating the everchanging employment landscape.</p>
+        </div>
+        <div class="col-sm-8">
+          <h4>Digital Profile Building</h4>
+          <p>At graduation, you will have an extensive and rich GitHub portfolio, several storytelling blogs on Medium, and a résumé that does most of the speaking, LinkedIn presence.</p>
+          <h4>Resume Building</h4>
+          <p>Optimize your resume to match job filters for data science positions.</p>
+          <h4>MOC Interviews</h4>
+          <p>Find out how to answer critical interview questions that make or break the deal.</p>
+          <h4>Personality Development</h4>
+          <p>Help you in the journey from an intermediate to a professional.</p>
         </div>
       </div>
     </section>
