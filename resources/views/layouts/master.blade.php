@@ -15,6 +15,7 @@
 <body>
   @include('layouts.nav')
   @yield('content')
+  <div id="preloader"></div>
   <script src="{{asset('/js/core.js')}}"></script>
   <script src="{{asset('/js/main.js')}}"></script>
 </body>
