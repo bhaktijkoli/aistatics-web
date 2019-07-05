@@ -102,10 +102,39 @@
             </p>
           </div>
           <div class="col-sm-12">
-            <h4>Curriculum</h4>
-            <p class="output">
-              {!!$training->curriculum!!}
-            </p>
+            <header class="section-header">
+              <h3>Curriculum</h3>
+            </header>
+          </div>
+          <div class="col-sm-12">
+            <ul id="curriculum-list" class="wow fadeInUp">
+              @php
+              $sections = explode('</ul>', $training->curriculum);
+              @endphp
+              @foreach ($sections as $section)
+                @php
+                $sectionName = explode('<ul>', $section)[0];
+                $section = str_replace($sectionName, '', $section);
+                $topics = explode('</li>', $section);
+                @endphp
+                @if (strlen(strip_tags($sectionName)) < 5)
+                  @break;
+                @endif
+                <li class="item">
+                  <a data-toggle="collapse" class="collapsed" href="#curriculum{{$loop->iteration}}">{{strip_tags($sectionName)}}<i class="ion-md-remove"></i></a>
+                  <div id="curriculum{{$loop->iteration}}"  class="collapse" data-parent="#curriculum-list">
+                    <ol>
+                      @foreach ($topics as $topic)
+                        @if (strlen(strip_tags($topic)) < 5)
+                          @break;
+                        @endif
+                        <li>{{strip_tags($topic)}}</li>
+                      @endforeach
+                    </ol>
+                  </div>
+                </li>
+              @endforeach
+            </ul>
           </div>
         </div>
       </div>

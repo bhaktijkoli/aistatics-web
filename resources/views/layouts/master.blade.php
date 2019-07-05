@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="{{asset('/css/main.css')}}">
   <link rel="stylesheet" href="{{asset('/css/web.css')}}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
 </head>
 <body>
   @include('layouts.nav')

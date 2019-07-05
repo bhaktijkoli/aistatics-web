@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 section {
   position: relative;
   width: 100vw;
@@ -255,6 +257,49 @@ section {
 
 #training_overview .output > p {
   margin: 0px;
+}
+
+#curriculum-list {
+  padding: 0;
+  list-style: none;
+}
+
+#curriculum-list .item {
+  border-bottom: 1px solid #ebebeb;
+}
+
+#curriculum-list a {
+  padding: 22px 0;
+  display: block;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 400;
+  padding-right: 20px;
+}
+
+#curriculum-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+#curriculum-list ul {
+  margin-bottom: 20px;
+}
+
+#curriculum-list a.collapse {
+  color: #1bb1dc;
+}
+
+#curriculum-list a.collapsed {
+  color: #000;
+}
+
+#curriculum-list a.collapsed i::before {
+  content: "\F102" !important;
 }
 
 #events-gallery h4 {
