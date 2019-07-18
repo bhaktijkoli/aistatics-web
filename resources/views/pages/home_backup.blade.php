@@ -5,79 +5,42 @@
   @endphp
 @endsection
 @section('content')
-  <div class="intro intro-carousel">
-    <div id="carousel" class="owl-carousel owl-theme">
-      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-1.jpg)">
-        <div class="overlay overlay-a"></div>
-        <div class="intro-content display-table">
-          <div class="table-cell">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8">
-                  <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
-                    <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Mount
-                      <br> Olive Road Two</h1>
-                    <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                    </p>
-                  </div>
-                </div>
+  <section id="welcome">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10">
+          <div class="space"></div>
+          <h1 >Welcome to A.I statics technology</h1>
+          <div class="col-sm-6" style="margin-top:50px">
+            <div class="item">
+              <div class="icon">
+                <img src="/img/industry.svg" width="32"/>
               </div>
+              <p class="text">Industry Solutions</p>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-2.jpg)">
-        <div class="overlay overlay-a"></div>
-        <div class="intro-content display-table">
-          <div class="table-cell">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8">
-                  <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
-                    <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Rino
-                      <br> Venda Road Five</h1>
-                    <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                    </p>
-                  </div>
-                </div>
+            <div class="item">
+              <div class="icon">
+                <img src="/img/training.svg" width="32"/>
               </div>
+              <p class="text">Corporate training</p>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-3.jpg)">
-        <div class="overlay overlay-a"></div>
-        <div class="intro-content display-table">
-          <div class="table-cell">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-8">
-                  <div class="intro-body">
-                    <p class="intro-title-top">Doral, Florida
-                      <br> 78345</p>
-                    <h1 class="intro-title mb-4">
-                      <span class="color-b">204 </span> Alira
-                      <br> Roan Road One</h1>
-                    <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                    </p>
-                  </div>
-                </div>
+            <div class="item">
+              <div class="icon">
+                <img src="/img/project.svg" width="32"/>
               </div>
+              <p class="text">Project guidance</p>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <img src="/img/certified.svg" width="32"/>
+              </div>
+              <p class="text">Certified Internship</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <main id="main">
     <section id="about">
       <div class="container">
