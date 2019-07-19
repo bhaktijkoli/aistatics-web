@@ -16,6 +16,7 @@ Route::get('/about-us', 'HomeController@getAboutUs')->name('about-us');
 Route::get('/services', 'HomeController@getServices')->name('services');
 Route::get('/training/{training}', 'HomeController@getTraining')->name('training');
 Route::get('/gallery', 'HomeController@getGallery')->name('gallery');
+Route::get('/gallery/{id}', 'HomeController@getGalleryByID')->name('gallery-details');
 Route::get('/contactus', 'HomeController@getContactUs')->name('contactus');
 
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Event;
 use App\Training;
 
 class HomeController extends Controller
@@ -23,6 +24,11 @@ class HomeController extends Controller
   }
   public function getGallery() {
     return view('pages.gallery');
+  }
+  public function getGalleryByID($id) {
+    $event = Event::find($id);
+    if(!$event) abort(404);
+    return view('pages.gallery-details', compact('event'));
   }
   public function getContactUs() {
     return view('pages.contactus');

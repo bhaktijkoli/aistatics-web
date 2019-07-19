@@ -27,18 +27,21 @@
   new WOW().init();
 
   // Header scroll class
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
-      $('#header').addClass('header-scrolled');
-      $('#header-logo').attr('src', '/img/logo.png')
-    } else {
-      $('#header').removeClass('header-scrolled');
-      $('#header-logo').attr('src', '/img/logo_white.png')
-    }
-  });
-
-  if ($(window).scrollTop() > 100) {
+  if($('#header').hasClass('nav-toggle')) {
+    console.log("Enabled");
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 100) {
+        $('#header').addClass('header-scrolled');
+        $('#header-logo').attr('src', '/img/logo.png')
+      } else {
+        $('#header').removeClass('header-scrolled');
+        $('#header-logo').attr('src', '/img/logo_white.png')
+      }
+    });
+  } else {
+    console.log("Disabled");
     $('#header').addClass('header-scrolled');
+    $('#header-logo').attr('src', '/img/logo.png')
   }
 
   // Smooth scroll for the navigation and links with .scrollto classes
@@ -85,7 +88,7 @@
 
     nav_sections.each(function() {
       var top = $(this).offset().top - main_nav_height,
-          bottom = top + $(this).outerHeight();
+      bottom = top + $(this).outerHeight();
 
       if (cur_pos >= top && cur_pos <= bottom) {
         main_nav.find('li').removeClass('active');

@@ -563,6 +563,42 @@ section {
   vertical-align: super;
 }
 
+#gallery-details {
+  margin-top: 120px;
+}
+
+#gallery-details h1 {
+  margin-bottom: 5px;
+}
+
+#gallery-details .badge {
+  font-size: 1em;
+  vertical-align: super;
+}
+
+#gallery-details .gallery-text {
+  margin-top: 20px;
+}
+
+#gallery-details .gallery-text p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+#gallery-details .gallery-text span {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+#gallery-carousel {
+  margin-top: 10px;
+}
+
+#gallery-carousel .carousel-item img {
+  width: inherit;
+  height: 60vh;
+}
+
 #contactus h4 {
   font-weight: 600;
   font-size: 24px;

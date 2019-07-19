@@ -43,7 +43,7 @@
                       @endforeach
                     </ul> --}}
                   </span>
-                  <a href="#" class="btn btn-primary" style="margin-top:20px">View Details</a>
+                  <a href="{{route('gallery-details', $event->id)}}" class="btn btn-primary" style="margin-top:20px">View Details</a>
                 </div>
               </div>
             </div>

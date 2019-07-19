@@ -30,3 +30,33 @@
     vertical-align: super;
   }
 }
+
+#gallery-details {
+  margin-top: 120px;
+  h1 {
+    margin-bottom: 5px;
+  }
+  .badge {
+    font-size: 1em;
+    vertical-align: super;
+  }
+  .gallery-text {
+    margin-top: 20px;
+  }
+  .gallery-text p {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  .gallery-text span {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+}
+
+#gallery-carousel {
+  margin-top: 10px;
+  .carousel-item img {
+    width: inherit;
+    height: 60vh;
+  }
+}

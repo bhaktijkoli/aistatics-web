@@ -1,4 +1,4 @@
-<header id="header">
+<header id="header" class="{{isset($navtoggle)?'':'nav-toggle'}}">
 
   <div id="topbar">
     <div class="container">
