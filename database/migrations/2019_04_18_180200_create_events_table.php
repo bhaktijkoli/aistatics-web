@@ -22,8 +22,9 @@ class CreateEventsTable extends Migration
       $table->longtext("agenda")->nullable();
       $table->string("frontimage")->nullable();
       $table->longtext("images")->nullable();
-      $table->timestamp("from")->nullable();
-      $table->timestamp("to")->nullable();
+      $table->date("date")->nullable();
+      $table->string("from")->nullable();
+      $table->string("to")->nullable();
       $table->timestamps();
     });
   }

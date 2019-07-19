@@ -26,22 +26,24 @@
             <div class="col-sm-4">
               <div class="card wow fadeInUp">
                 {{-- <img class="card-img-top" src="{{Voyager::image($event->frontimage)}}" alt="Card image"> --}}
-                <div class="card-body">
                   <h4 class="card-title">{{$event->name}}<small class="badge badge-light">{{$event->type}}</small></h4>
+                  <div class="card-img-top">
+                    <img src="{{Voyager::image($event->frontimage)}}"/>
+                  </div>
+                  <div class="card-body">
                   <span class="card-text">
-                    <small>{{$event->from->format('l')}}-{{$event->from->format('G:i A')}} to {{$event->from->format('G:i A')}}</small></br>
                     <span>Venue: </span>{{$event->venue}}</br>
                     <span>Presenter: </span>{{$event->presenter}}</br>
-                    <span>Agenda: </span></br>
+                    {{-- <span>Agenda: </span></br>
                     <ul>
                       @foreach (explode('.', $event->agenda) as $a)
                         @if (strlen($a) > 2)
                           <li>{{$a}}</li>
                         @endif
                       @endforeach
-                    </ul>
+                    </ul> --}}
                   </span>
-                  <a href="#" class="btn btn-primary">View Details</a>
+                  <a href="#" class="btn btn-primary" style="margin-top:20px">View Details</a>
                 </div>
               </div>
             </div>
