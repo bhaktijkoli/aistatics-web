@@ -22,6 +22,9 @@ class HomeController extends Controller
     $training = Training::where('slug', $slug)->first();
     return view('pages.training', compact('training'));
   }
+  public function getStudents() {
+    return view('pages.students');
+  }
   public function getGallery() {
     return view('pages.gallery');
   }
