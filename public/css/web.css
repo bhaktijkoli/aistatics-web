@@ -647,3 +647,41 @@ section {
   background: #00000078;
 }
 
+.footer {
+  background: #1e272e;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.footer p {
+  color: #FFF;
+}
+
+.footer p.contact-details {
+  font-size: 0.8em;
+  color: #ffffffb5;
+  margin-bottom: 5px;
+}
+
+.footer .footer-title {
+  font-size: 1em;
+  color: #FFFF;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ffffff0f;
+}
+
+.footer .footer-links {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.footer .footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer .footer-links li a {
+  color: #FFF;
+  list-style: none;
+}
+
