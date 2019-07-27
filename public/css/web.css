@@ -530,6 +530,16 @@ section {
   content: "\F102" !important;
 }
 
+#students-projects {
+  margin-top: 100px;
+}
+
+.dark .carousel-control-prev-icon,
+.dark .carousel-control-next-icon {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
 #events-gallery h4 {
   font-weight: 600;
   font-size: 24px;

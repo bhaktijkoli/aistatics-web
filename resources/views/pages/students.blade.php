@@ -65,10 +65,10 @@
               </div>
 
               <!-- Left and right controls -->
-              <a class="carousel-control-prev" href="#student-review-caraousel" data-slide="prev">
+              <a class="carousel-control-prev dark" href="#student-review-caraousel" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
               </a>
-              <a class="carousel-control-next" href="#student-review-caraousel" data-slide="next">
+              <a class="carousel-control-next dark" href="#student-review-caraousel" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
               </a>
 
