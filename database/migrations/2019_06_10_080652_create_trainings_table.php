@@ -17,6 +17,7 @@ class CreateTrainingsTable extends Migration
       $table->bigIncrements('id');
       $table->string('name');
       $table->string('image');
+      $table->string('boucher');
       $table->longtext('objective');
       $table->longtext('outcomes');
       $table->longtext('audience');
